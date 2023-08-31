@@ -6,7 +6,10 @@ class CustomHandler(SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain; charset=utf-8')
         self.end_headers()
-        self.wfile.write("Hello krampoline!".encode('utf-8'))
+        self.wfile.write("NewJeansNewJeansNewJeansNewJeans".encode('utf-8'))
+        self.wfile.write("NewJeansNewJeansNewJeansNewJeans".encode('utf-8'))
+        self.wfile.write("NewJeansNewJeansNewJeansNewJeans".encode('utf-8'))
+        self.wfile.write("NewJeansNewJeansNewJeansNewJeans".encode('utf-8'))
 
 
 PORT = 3000
